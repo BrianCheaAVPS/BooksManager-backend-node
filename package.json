@@ -1,0 +1,39 @@
+{
+  "name": "node-js-microservices-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@sendgrid/mail": "^7.4.2",
+    "aws": "0.0.3-2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cjs": "0.0.11",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.5",
+    "mysql2": "^2.2.5",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7",
+    "sdk": "^0.5.0",
+    "sendgrid": "^5.2.3",
+    "sequelize": "^6.6.2",
+    "xmlbuilder": "^15.1.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./lib/index.js --exec babel-node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
